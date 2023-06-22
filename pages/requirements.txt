@@ -1,0 +1,10 @@
+ChatterBot==1.0.4
+dash==2.8.1
+dash_bootstrap_components==1.2.1
+dash_dangerously_set_inner_html==0.0.2
+dash_iconify==0.1.2
+dash_labs==1.2.0
+dash_mantine_components==0.12.1
+numpy==1.24.1
+pandas==1.5.2
+requests==2.26.0

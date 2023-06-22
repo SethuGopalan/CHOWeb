@@ -1,0 +1,29 @@
+/* Define keyframes for typewriter effect */
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  /* to {
+    width: 80%;
+  } */
+}
+
+/* Apply typewriter animation to h5 element */
+h5.typewriter {
+  overflow: -moz-hidden-unscrollable; /* Ensures the text doesn't overflow outside the element */
+  border-right: 0.1em solid orange; /* Creates the blinking cursor effect */
+  white-space: nowrap; /* Prevents line breaks */
+  margin: 0 auto; /* Centers the element */
+  letter-spacing: 0.15em; /* Adjusts the spacing between characters */
+  /* animation: typewriter 1s steps(40) infinite; */
+  animation: typewriter 1s steps(20) infinite;
+}
+
+/* Additional styles for the h5 element */
+h5 {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  /* margin-top: 200px; */
+}
