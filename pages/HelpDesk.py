@@ -26,11 +26,11 @@ time.clock = time.time
 register_page(__name__, path="/")
 
 
-chatbot = ChatBot(
-    'Liza',
-    storage_adapter='chatterbot.storage.SQLStorageAdapter',
-    database_uri='sqlite:///database.sqlite3'
-)
+chatbot = ChatBot('Liza')
+
+# storage_adapter='chatterbot.storage.SQLStorageAdapter',
+# database_uri='sqlite:///database.sqlite3'
+
 chatbot.storage.drop()
 
 logic_adapters = [
